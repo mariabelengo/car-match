@@ -6,6 +6,13 @@
 
 }
 
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 
 .custom-card-img {
     height: 200px;

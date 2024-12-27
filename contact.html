@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | Car Match</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style2.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 
 
@@ -54,127 +54,132 @@
         </div>
     </nav>
 
-    <body>
+    <main>
 
-        <h1><b>Formulario de Contacto</b> </h1>
+        <div class="contact-container">
+            <h1><b>Formulario de Contacto</b> </h1>
 
-        <form id="contact-form" action="https://formspree.io/f/mvgorlqp" method="POST">
-            <label for="firstname"> Nombre:</label>
-            <input type="text" placeholder="Escriba su nombre" required id="Nombre">
-            <br> <br>
-
-
-            <label for="lastname">Apellido:</label>
-            <input type="text" placeholder="Escriba su apellido" required id="Apellido">
-
-            <br> <br>
-            <label for="phonenumber">Celular:</label>
-            <input type="number" placeholder="Escriba su celular" required id="Telefono">
-
-            <br> <br>
-
-            <label for="Mail">Correo electrónico:</label>
-            <input type="email" placeholder="Escriba su correo electrónico" required id="Correo electronico">
-            <br> <br>
+            <form id="contact-form" action="https://formspree.io/f/mvgorlqp" method="POST">
+                <label for="firstname"> Nombre:</label>
+                <input type="text" placeholder="Escriba su nombre" required id="Nombre">
+                <br> <br>
 
 
-            <h4>Horario que podemos contactarte</h4>
-            <p>
-            <div class="form-check form-check-inline">
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="morning" id="morning" value="checkedValue">
-                    Mañana
-                </label>
+                <label for="lastname">Apellido:</label>
+                <input type="text" placeholder="Escriba su apellido" required id="Apellido">
 
-<br>
-                <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" name="afternoon" id="afternoon"
-                        value="checkedValue"> Tarde
+                <br> <br>
+                <label for="phonenumber">Celular:</label>
+                <input type="number" placeholder="Escriba su celular" required id="Telefono">
 
-                </label>
-<br>
-                <label class="form-check-label">
+                <br> <br>
 
-                    <input class="form-check-input" type="checkbox" name="evening" id="evening" value="checkedValue">
-                    Noche
-                </label>
-            </div>
-            </p>
-
-            <label>Escribe tu consulta</label> <br>
-
-            <textarea id="consulta" name="consulta" rows="6" cols="50" placeholder="Escribe tu consulta"></textarea>
+                <label for="Mail">Correo electrónico:</label>
+                <input type="email" placeholder="Escriba su correo electrónico" required id="Correo electronico">
+                <br> <br>
 
 
+                <h4>Horario que podemos contactarte</h4>
+                <p>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="morning" id="morning"
+                            value="checkedValue">
+                        Mañana
+                    </label>
 
+                    <br>
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="afternoon" id="afternoon"
+                            value="checkedValue"> Tarde
 
+                    </label>
+                    <br>
+                    <label class="form-check-label">
 
+                        <input class="form-check-input" type="checkbox" name="evening" id="evening"
+                            value="checkedValue">
+                        Noche
+                    </label>
+                </div>
+                </p>
 
-            <button type="submit"> <strong></strong>Enviar Consulta</button>
+                <label>Escribe tu consulta</label> <br>
 
-
-        </form>
-
-        <h3><strong>Nos puedes visitar en nuestro taller</strong> </h3>
-
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.4116581797789!2d-4.147291058748883!3d42.98698268606397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd48e68140ae948f%3A0xe49f4bc6a36582e6!2sC.%20las%20Eras%2C%2010%2C%2039200%20Matamorosa%2C%20Cantabria!5e0!3m2!1ses!2ses!4v1730130772279!5m2!1ses!2ses"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <textarea id="consulta" name="consulta" rows="6" cols="50" placeholder="Escribe tu consulta"></textarea>
 
 
 
-        <footer class="bg-dark text-white text-center text-lg-start mt-5">
-            <div class="container-fluid p-4">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-4">
-                        <h5 class="text-uppercase">Car Match</h5>
-                        <p>
-                            <span>Car Match</span> es una empresa con más de 7 años de experiencia en la venta de autos
-                            de segunda mano. Somos un equipo de dos socios, Matías y Belén, comprometidos en ofrecer
-                            vehículos de alta calidad con garantía de hasta un año. Nos especializamos en encontrar el
-                            coche perfecto para cada cliente, asegurándonos de que cada auto que vendemos esté en
-                            excelentes condiciones y sea una opción confiable para ti.
-                        </p>
-                    </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <h5 class="text-uppercase">Enlaces</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="index.html" class="text-white">Inicio</a></li>
-                            <li><a href="productos.html" class="text-white">Coches en Venta</a></li>
-                            <li><a href="reviews.html" class="text-white">Reseñas</a></li>
-                            <li><a href="contact.html" class="text-white">Contacto</a></li>
-                            <li><a href="about.html" class="text-white">Sobre Nosotros</a></li>
-                            <li><a href="#" class="text-white">Contacto</a></li>
-                        </ul>
-                    </div>
 
-                    <div class="col-lg-3 col-md-6 mb-4">
-                        <h5 class="text-uppercase">Redes Sociales</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="https://facebook.com" class="text-white"><i class="fab fa-facebook-f"></i>
-                                    Facebook</a></li>
-                            <li><a href="https://twitter.com" class="text-white"><i class="fab fa-twitter"></i>
-                                    Twitter</a></li>
-                            <li><a href="https://instagram.com" class="text-white"><i class="fab fa-instagram"></i>
-                                    Instagram</a></li>
-                            <li><a href="https://linkedin.com" class="text-white"><i class="fab fa-linkedin"></i>
-                                    LinkedIn</a></li>
-                        </ul>
-                    </div>
+
+                <button type="submit"> <strong></strong>Enviar Consulta</button>
+
+
+            </form>
+
+
+            <h3><strong>Nos puedes visitar en nuestro taller</strong> </h3>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182.4116581797789!2d-4.147291058748883!3d42.98698268606397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd48e68140ae948f%3A0xe49f4bc6a36582e6!2sC.%20las%20Eras%2C%2010%2C%2039200%20Matamorosa%2C%20Cantabria!5e0!3m2!1ses!2ses!4v1730130772279!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+
+    <footer class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container-fluid p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Car Match</h5>
+                    <p>
+                        <span>Car Match</span> es una empresa con más de 7 años de experiencia en la venta de autos
+                        de segunda mano. Somos un equipo de dos socios, Matías y Belén, comprometidos en ofrecer
+                        vehículos de alta calidad con garantía de hasta un año. Nos especializamos en encontrar el
+                        coche perfecto para cada cliente, asegurándonos de que cada auto que vendemos esté en
+                        excelentes condiciones y sea una opción confiable para ti.
+                    </p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Inicio</a></li>
+                        <li><a href="productos.html" class="text-white">Coches en Venta</a></li>
+                        <li><a href="reviews.html" class="text-white">Reseñas</a></li>
+                        <li><a href="contact.html" class="text-white">Contacto</a></li>
+                        <li><a href="about.html" class="text-white">Sobre Nosotros</a></li>
+                        <li><a href="#" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://facebook.com" class="text-white"><i class="fab fa-facebook-f"></i>
+                                Facebook</a></li>
+                        <li><a href="https://twitter.com" class="text-white"><i class="fab fa-twitter"></i>
+                                Twitter</a></li>
+                        <li><a href="https://instagram.com" class="text-white"><i class="fab fa-instagram"></i>
+                                Instagram</a></li>
+                        <li><a href="https://linkedin.com" class="text-white"><i class="fab fa-linkedin"></i>
+                                LinkedIn</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="footer">
-                Maria Belen Gomez | Talento Tech 2024
-            </div>
-        </footer>
+        <div class="footer">
+            Maria Belen Gomez | Talento Tech 2024
+        </div>
+    </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://kit.fontawesome.com/2cbbc87d30.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2cbbc87d30.js" crossorigin="anonymous"></script>
 
 
-    </body>
+</body>
 
 </html>
